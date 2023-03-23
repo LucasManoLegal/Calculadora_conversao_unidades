@@ -32,6 +32,16 @@ def MegabyteParaKilobyte(valorASerConvertido):
     KilobytesCalculado = valorASerConvertido * 1024.0
     return KilobytesCalculado
 
+def MegabyteParaGigabyte(valorASerConvertido):
+    print('Valor convertido de Megabyte Para Gigabyte ')
+    GigabytesCalculado = valorASerConvertido / 1024.0
+    return GigabytesCalculado
+
+def GigabyteParaMegabyte(valorASerConvertido):
+    print('Valor convertido de Gigabyte Para Megabyte ')
+    MegabytesCalculado = valorASerConvertido * 1024.0
+    return MegabytesCalculado
+
 print('Insira o valor a ser convertido')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
 valorConvertido = KilobyteParaMegabyte(entradaDoTecladoValorASerConvertido)
