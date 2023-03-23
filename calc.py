@@ -58,6 +58,6 @@ def TerabyteParaPetabyte(valorASerConvertido):
 
 def PetabyteParaTerabyte(valorASerConvertido):
     print('Valor convertido de Petabyte Para Terabyte')
-    TerabytesCalculado = valorASerConvertido / 1024.0
+    TerabytesCalculado = valorASerConvertido * 1024.0
     return TerabytesCalculado
 
