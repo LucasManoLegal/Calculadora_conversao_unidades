@@ -1,5 +1,4 @@
 def converterStringParaFloat(value):
-    print('Valor convertido de str para float')
     return float(value)
 
 def bitParaByte(valorASerConvertido):
@@ -62,7 +61,3 @@ def PetabyteParaTerabyte(valorASerConvertido):
     TerabytesCalculado = valorASerConvertido / 1024.0
     return TerabytesCalculado
 
-print('Insira o valor a ser convertido')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = KilobyteParaMegabyte(entradaDoTecladoValorASerConvertido)
-print(valorConvertido)

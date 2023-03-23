@@ -1,6 +1,6 @@
 from calc import converterStringParaFloat, bitParaByte, byteParaBit, byteParaKilobyte, KilobyteParabyte, KilobyteParaMegabyte, MegabyteParaKilobyte, MegabyteParaGigabyte, GigabyteParaMegabyte, GigabyteParaTerabyte, TerabyteParaGigabyte, TerabyteParaPetabyte, PetabyteParaTerabyte
 
-print(' Digite 1 para bitParabyte \n 2 para byteParaBit \n 3 para byteParaKilobyte \n 4 para KilobyteParabyte \n 5 para KilobyteParaMegabyte \n 6 para MegabyteParaKilobyte \n 7 para MegabyteParaGigabyte \n 8 para GigabyteParaMegabyte \n 9 para  ')
+print(' Digite 1 para bitParabyte \n 2 para byteParaBit \n 3 para byteParaKilobyte \n 4 para KilobyteParabyte \n 5 para KilobyteParaMegabyte \n 6 para MegabyteParaKilobyte \n 7 para MegabyteParaGigabyte \n 8 para GigabyteParaMegabyte \n 9 para Gigabyte para Terabyte \n 10 para Terabyte para Gigabyte \n 11 para Terabyte para Petabyte \n 12 para Petabyte para Terabyte ')
 FuncEscolha = input()
 if(FuncEscolha == '1'):
     entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
