@@ -13,16 +13,26 @@ def byteParaBit(valorASerConvertido):
     return bitsCalculado
 
 def byteParaKilobyte(valorASerConvertido):
-    print('Valor convertido de byte para bit')
-    KilobytesCalculado = valorASerConvertido * 1024.0
+    print('Valor convertido de byte para Kilobyte')
+    KilobytesCalculado = valorASerConvertido / 1024.0
     return KilobytesCalculado
 
 def KilobyteParabyte(valorASerConvertido):
-    print('Valor convertido de byte para bit')
+    print('Valor convertido de Kilobyte para byte')
     bitsCalculado = valorASerConvertido * 1024.0
     return bitsCalculado
 
+def KilobyteParaMegabyte(valorASerConvertido):
+    print('Valor convertido de Kilobyte Para Megabyte')
+    MegabytesCalculado = valorASerConvertido / 1024.0
+    return MegabytesCalculado
+
+def MegabyteParaKilobyte(valorASerConvertido):
+    print('Valor convertido de Megabyte Para Kilobyte ')
+    KilobytesCalculado = valorASerConvertido * 1024.0
+    return KilobytesCalculado
+
 print('Insira o valor a ser convertido')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = byteParaKilobyte(entradaDoTecladoValorASerConvertido)
+valorConvertido = KilobyteParaMegabyte(entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
