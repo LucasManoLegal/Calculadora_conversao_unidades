@@ -12,7 +12,17 @@ def byteParaBit(valorASerConvertido):
     bitsCalculado = valorASerConvertido * 8.0
     return bitsCalculado
 
+def byteParaKilobyte(valorASerConvertido):
+    print('Valor convertido de byte para bit')
+    KilobytesCalculado = valorASerConvertido * 1024.0
+    return KilobytesCalculado
+
+def KilobyteParabyte(valorASerConvertido):
+    print('Valor convertido de byte para bit')
+    bitsCalculado = valorASerConvertido * 1024.0
+    return bitsCalculado
+
 print('Insira o valor a ser convertido')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-valorConvertido = bitParaByte(entradaDoTecladoValorASerConvertido)
+valorConvertido = byteParaKilobyte(entradaDoTecladoValorASerConvertido)
 print(valorConvertido)
