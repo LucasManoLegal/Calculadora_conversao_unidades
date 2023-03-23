@@ -39,8 +39,18 @@ def MegabyteParaGigabyte(valorASerConvertido):
 
 def GigabyteParaMegabyte(valorASerConvertido):
     print('Valor convertido de Gigabyte Para Megabyte ')
-    MegabytesCalculado = valorASerConvertido * 1024.0
+    MegabytesCalculado = valorASerConvertido / 1024.0
     return MegabytesCalculado
+
+def GigabyteParaTerabyte(valorASerConvertido):
+    print('Valor convertido de Terabyte Para Gigabyte ')
+    TerabytesCalculado = valorASerConvertido * 1024.0
+    return TerabytesCalculado
+
+def TerabyteParaGigabyte(valorASerConvertido):
+    print('Valor convertido de Terabyte Para Gigabyte ')
+    GigabytesCalculado = valorASerConvertido / 1024.0
+    return GigabytesCalculado
 
 print('Insira o valor a ser convertido')
 entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
